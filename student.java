@@ -36,7 +36,7 @@ public class Student {
 	public BigDecimal getAverageMarks() {
 		int sum = getTotal();
 		int number = score.length;
-		return new BigDecimal(sum).divide(new BigDecimal(number));
+		return new BigDecimal(sum).divide(new BigDecimal(number), 3, RoundingMode.UP);
 	}
 }
 
