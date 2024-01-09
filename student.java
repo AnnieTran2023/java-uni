@@ -34,7 +34,6 @@ public class Student {
 	}
 
 	public BigDecimal getAverageMarks() {
-		// TODO Auto-generated method stub
 		int sum = getTotal();
 		int number = score.length;
 		return new BigDecimal(sum).divide(new BigDecimal(number));
@@ -44,7 +43,6 @@ public class Student {
 public class StudentRunner {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int[] score = { 100, 89, 90, 99 };
 		Student student = new Student("Julie", score);
 		System.out.println(student.getMax());
