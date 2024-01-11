@@ -19,7 +19,6 @@ public class BiArray {
 
     private int calculateSum(int[] array) {
         
-        // TODO: Write the code to calculate the sum of the array.
           int sum = 0;
         for(int num : array) {
             sum += num;
